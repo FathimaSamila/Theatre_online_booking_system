@@ -1,0 +1,17 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.about-left img {
+    width: 500px;
+    height: 300px;
+}
+
+.about-text {
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}

@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+}
+
+body {
+    background: url(../image/c4.jpg);
+    background-size: cover;
+}
+
+.row1 {
+    margin: 30px 20px;
+    display: flex;
+    width: 100%;
+    background: transparent;
+}
+
+.left {
+    width: 50%;
+    height: 540px;
+    background: transparent;
+}
+
+.right {
+    width: 50%;
+    height: 540px;
+    background: transparent;
+}
+
+
+/*form start*/
+
+.me {
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 30px;
+    width: 500px;
+}
+
+.payment-form {
+    margin: 20px 300px;
+    width: 500px;
+    background: transparent;
+    display: flex;
+    border-radius: 20px;
+}
+
+.right h1 {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    font-family: 'Showcard Gothic', sans-serif;
+    color: transparent;
+    /* -webkit-text-stroke: 1px rgb(250, 121, 1); */
+    background: url(../image/c1.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: kiru 40s linear infinite;
+    text-shadow: 18px red;
+}
+
+@keyframes kiru {
+    100% {
+        background-position: 2000px 0;
+    }
+}
+
+.right .label {
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 45px;
+    font-family: 'Forte', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.right h2 {
+    margin-top: 20px;
+    margin-left: 110px;
+    font-size: 35px;
+    font-family: 'Forte', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.payline1 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.payline2 {
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+label {
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.payment {
+    margin: 20px 30px;
+}
+
+form input {
+    font-size: 20px;
+    height: 50px;
+    width: 215px;
+    border-radius: 10px;
+    padding-left: 20px;
+    background: transparent;
+    border: none;
+    color: rgb(255, 250, 250);
+    border-bottom: 1px solid white;
+}
+
+form input:hover {
+    box-shadow: 5px 5px 10px aqua, 5px 5px 10px aqua;
+}
+
+.card_no {
+    margin-bottom: 5px;
+}
+
+.email1 {
+    margin-top: 10px;
+}
+
+.cvv,
+.email {
+    margin-left: 10px;
+}
+
+.cvv {
+    margin-top: 30px;
+}
+
+.card1 input {
+    width: 440px;
+}
+
+.movie-btn {
+    display: flex;
+    margin-left: 100px;
+}
+
+.ok-btn .pay-btn,
+.cal-btn .pay-cancel-btn {
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(5, 33, 197);
+    border: none;
+    font-size: 20px;
+}
+
+.cal-btn .pay-cancel-btn {
+    background-color: rgb(231, 6, 6);
+}
+
+.cal-btn {
+    margin-left: 40px;
+}
+
+.pay-cancel-btn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background: linear-gradient(to right, rgba(250, 58, 0, 0.486), rgb(240, 187, 12));
+}
+
+.pay-btn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background: linear-gradient(to right, rgba(0, 212, 250, 0.486), rgb(12, 149, 240));
+}

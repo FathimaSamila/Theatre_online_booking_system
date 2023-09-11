@@ -1,0 +1,109 @@
+.addtitle {
+    font-family: 'Lucida Sans';
+    margin-right: 330px;
+    margin-top: 10px;
+}
+
+.add-user {
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.add-user button {
+    margin-bottom: 20px;
+}
+
+.modal-dialog {
+    font-size: 20px;
+}
+
+.modal-dialog form {
+    display: grid;
+}
+
+.modal-dialog form input {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.movie-detail-table .adedit-btn {
+    background-color: rgb(59, 192, 59);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.movie-detail-table .addelete-btn {
+    background-color: rgb(245, 79, 79);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+
+/* user edit */
+
+.modal-content {
+    margin-left: 40px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.modal-content button {
+    margin-bottom: 20px;
+}
+
+.modal-content form {
+    display: grid;
+}
+
+.modal-body input {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.modal-body .btn_update {
+    background-color: rgb(59, 192, 59);
+    border: none;
+    overflow: hidden;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.modal-body .btn_can button {
+    background-color: rgb(245, 79, 79);
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: white;
+    overflow: hidden;
+}
+
+.reportbtn {
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.report-container {
+    margin-left: 50%;
+    color: black;
+}
+
+.report-container label {
+    font-size: 20px;
+}
+
+.report-container .sdate {
+    margin-left: 300px;
+}
+
+.report-container input {
+    padding: 5px 5px;
+    border-radius: 5px;
+}

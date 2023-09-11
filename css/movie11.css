@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/*start of movie detalis*/
+
+all_movies {
+    margin: 0;
+    padding: 0;
+}
+
+.main-movie-image {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem !important;
+    border-radius: 0.5rem;
+}
+
+.mmovie-image {
+    position: absolute;
+    margin-left: 60px;
+    width: 90%;
+    height: 400px;
+    z-index: -1;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0px 24px 38px rgba(3, 3, 3, 0.25), 0px 10px 10px rgba(22, 0, 0, 0.22);
+}
+
+.main-movie-text {
+    padding-left: 150px;
+}
+
+.main-movie-text p {
+    font-size: 30px;
+    margin-top: 70%;
+    font-weight: 800;
+    line-height: 60px;
+    font-family: 'poppins', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(../image/line3.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: kiru 40s linear infinite;
+    text-shadow: 18px red;
+}
+
+@keyframes kiru {
+    100% {
+        background-position: 2000px 0;
+    }
+}
+
+.watch-btn {
+    display: flex;
+    align-items: center;
+    column-gap: 0.8rem;
+    color: white;
+    text-decoration: none;
+}
+
+.watch-btn .bx {
+    background-color: orange;
+    width: 40px;
+    height: 40px;
+    font-size: 21px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watch-btn .bx:hover {
+    background: red;
+}
+
+.watch-btn span {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/*movie about details*/
+
+.about-movie {
+    margin-left: 90px;
+    width: 80%;
+    color: rgb(45, 6, 238);
+    display: flex;
+    background: transparent;
+    height: 200px;
+    margin-bottom: 120px;
+    margin-top: 20px;
+}
+
+.about {
+    font-size: 16px;
+    width: 100%;
+}
+
+.about-movie-title a {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+    font-family: 'poppins', sans-serif;
+    color: rgb(20, 20, 20);
+}
+
+.about-movie-gender {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h1,
+h2 {
+    margin-top: 10px;
+}
+
+
+/*show data*/
+
+span {
+    color: rgb(2, 89, 250);
+    font-weight: bold;
+}
+
+span:hover {
+    font-weight: 500;
+}
+
+.show-txt {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.movie-booking {
+    width: 100%;
+}
+
+.selectDate {
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+    height: 200px;
+    margin-left: 180px;
+}
+
+.selectDate button {
+    position: relative;
+    width: 160px;
+    text-align: center;
+    display: flex;
+    margin-left: 20px;
+    font-family: 'poppins', 'sans-serif';
+    font-weight: 800;
+    text-transform: uppercase;
+    height: 60px;
+    font-size: 20px;
+    letter-spacing: .1em;
+    color: rgb(1, 247, 255);
+    background: black;
+    border: 2px solid rgb(1, 247, 255);
+    padding: 0px 10px;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 1s, box-shadow 1s;
+    transition-delay: 0s, 1s;
+}
+
+.selectDate button:hover {
+    transition-delay: 0s, 0.2s;
+    color: #fff;
+    box-shadow: 0 0 10px rgb(1, 247, 255), 0 0 20px rgb(1, 247, 255), 0 0 40px rgb(1, 247, 255), 0 0 80px rgb(1, 247, 255), 0 0 160px rgb(1, 247, 255);
+}
+
+.selectDate button::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: rgb(1, 247, 255);
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: 1s;
+}
+
+.selectDate button:hover:before {
+    width: 100%;
+}

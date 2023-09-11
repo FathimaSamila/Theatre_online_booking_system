@@ -1,0 +1,47 @@
+.addtitle {
+    font-family: 'Lucida Sans';
+    margin-right: 260px;
+    margin-top: 10px;
+}
+
+.booking-detail-table {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.adedit-btn {
+    background-color: rgb(231, 48, 24);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.ad {
+    margin-left: 85%;
+}
+
+.reportbtn {
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.report-container {
+    margin-left: 50%;
+    color: black;
+}
+
+.report-container label {
+    font-size: 20px;
+}
+
+.report-container .sdate {
+    margin-left: 300px;
+}
+
+.report-container input {
+    padding: 5px 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,197 @@
+.logo {
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 40px;
+    display: flex;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fefefe;
+}
+
+.logo span {
+    color: rgb(252, 159, 0);
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.logo:hover {
+    font-weight: 500;
+}
+
+.user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+nav {
+    display: flex;
+    background: black;
+    width: 100%;
+    padding: 10px 5%;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+nav ul {
+    width: 100%;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 10px;
+    transition: 0.2s;
+    border-radius: 50px;
+    color: #fefefe;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: rgb(255, 115, 0);
+    background: #fefefe;
+    transition: 0.3s all linear;
+    transform: scale(1.1);
+}
+
+.sub-menu-wrap {
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    width: 250px;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 0.5s;
+}
+
+.sub-menu-wrap.open-menu {
+    max-height: 300px;
+}
+
+.sub-menu {
+    background: rgb(138, 137, 137);
+    padding: 20px;
+    margin: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info h2 {
+    font-weight: 500;
+}
+
+.user-img2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.sub-menu hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background: #ccc;
+}
+
+.sub-menu-link {
+    display: flex;
+    margin-bottom: 5px;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+
+.sub-menu-link2 {
+    display: inline;
+    margin-bottom: 5px;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+
+.sub-menu-b {
+    display: flex;
+    margin-bottom: 5px;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    background: transparent;
+    border: none;
+    width: 40px;
+    font-size: 20px;
+}
+
+.sub-menu-link2 p {
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+    margin-left: 2px;
+}
+
+.lgspan span {
+    margin-left: 135px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sub-menu-link p {
+    width: 100%;
+    color: #fff;
+}
+
+.sub-menu-link span {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: transform 0.5s;
+}
+
+.sub-menu-link:hover span {
+    transform: translate(5px);
+}
+
+.sub-menu-link:hover p {
+    font-weight: 600;
+}
+
+.sub-menu-link2:hover span {
+    transform: translate(5px);
+}
+
+.sub-menu-link2:hover p {
+    font-weight: 600;
+}
+
+.selectdt {
+    margin-left: 200px;
+    background: rgb(100, 98, 98);
+    height: 50px;
+    max-width: 400px;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.movie-booking .radio {
+    color: rgb(194, 116, 116);
+}
+
+.movie-booking h2 {
+    color: rgb(255, 115, 0);
+}

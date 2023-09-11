@@ -1,0 +1,95 @@
+<?php
+session_start();
+?>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vijaya theater</title>
+
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/about.css">
+        <!--link boxicon css-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!--link swiper css-->
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    </head>
+
+    <body>
+        <header class="hero">
+            <nav>
+                <div class="logo">Vijaya <span>theatre</span></div>
+                <div class="hum">
+                    <div class="line"></div>
+                </div>
+                <ul class="nbar">
+                    <li><a href="home.php">HOME</a></li>
+                    <li><a href="about.php" class="active">ABOUT</a></li>
+                    <li><a href="main_movie.php">MOVIE</a></li>
+                </ul>
+                <img src="image/user.png" alt="user" class="user-img" onclick="toggleMenu()">
+
+                <div class="sub-menu-wrap" id="subMenu">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="image/user.png" alt="user" class="user-img2">
+                            <h2>
+                                <?php echo($_SESSION['username']);?>
+                            </h2>
+                        </div>
+                        <hr>
+                        <a href="user.php" class="sub-menu-link">
+                            <p>Booking Details</p>
+                            <span>></span>
+                        </a>
+                        <a href="" class="sub-menu-link">
+                            <p>Setting</p>
+                            <span>></span>
+                        </a>
+                        <a href="" class="sub-menu-link">
+                            <p>Logout</p>
+                            <span>></span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container">
+            <div class="about">
+                <div class="about-left">
+                    <img src="image/bc3.jpg" alt="vijaya theatre">
+                </div>
+                <div class="about-right">
+                    <div class="about-text">
+                        <h1>Welcome To Page</h1>
+                        <h2>This site Help to Book Ticket Very Easly</h2>
+                        <h3>Address</h3>
+                        <label>20, Olive Ln, Batticaloa, Sri Lanka</label>
+                        <h3>Phone No</h3>
+                        <label>070 655 1550, 065 2222 333</label>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+
+
+        <!--link swiper js-->
+        <script src="js/swiper-bundle.min.js"></script>
+        <script src="js/kiru.js"></script>
+        <script>
+            let subMenu = document.getElementById("subMenu");
+
+            function toggleMenu() {
+                subMenu.classList.toggle("open-menu");
+            }
+        </script>
+
+    </body>
+
+    </html>

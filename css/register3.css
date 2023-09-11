@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-size: cover;
+}
+
+
+/* @media only screen and (max-width:1320px) {
+    .h1 {
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .h1 {
+        padding: 0 30px;
+    }
+} */
+
+
+/* register form start */
+
+.me {
+    margin-top: 80px;
+    margin-left: 300px;
+    width: 500px;
+    font-size: 20px;
+}
+
+.register_container {
+    display: grid;
+    margin: 0px 300px;
+    width: 500px;
+    height: 450px;
+    box-shadow: 0px 14px 28px rgba(14, 11, 11, 0.25), 0px 10px 10px rgba(15, 1, 1, 0.22);
+    border-radius: 20px;
+    background: transparent;
+    margin-bottom: 20px;
+}
+
+.regi_form form {
+    display: grid;
+    margin-left: 40px;
+}
+
+.rhead {
+    color: wheat;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.name,
+.pass {
+    display: flex;
+}
+
+.regi_form input {
+    color: rgb(255, 254, 254);
+    display: block;
+    flex-direction: column;
+    background: transparent;
+    font-size: 20px;
+    padding-left: 10px;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20PX;
+    border: 2px solid #0e1b69;
+}
+
+.lastame input,
+.fname input {
+    width: 100px;
+}
+
+.lastame input,
+.password2 input {
+    margin-left: 20px;
+}
+
+.password2 input,
+.password1 input {
+    width: 190px;
+}
+
+.regi_form button {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    background: transparent;
+    text-align: center;
+    margin-left: 120px;
+    border-radius: 10px;
+    border: none;
+}
+
+.regi_form button:hover {
+    /* transform: scale(1.1);
+    transition: 0.5s; */
+    background-color: red;
+}
+
+.regi_form a {
+    font-size: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+
+/* .google {
+    margin-top: 10px;
+    background-color: red;
+    padding-top: 5px;
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.facebook {
+    margin-top: 10px;
+    background-color: rgb(0, 183, 255);
+    padding-top: 5px;
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+} */
+
+.text-center a {
+    margin-left: 280px;
+    color: white;
+}
+
+.text-center {
+    margin-bottom: 10px;
+}
+
+.text-center2 a {
+    margin-left: 120px;
+    color: white;
+}

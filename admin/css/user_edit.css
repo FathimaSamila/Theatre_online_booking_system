@@ -1,0 +1,43 @@
+.addtitle {
+    font-family: 'Lucida Sans';
+    margin-right: 330px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.modal-content {
+    margin-left: 40px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.modal-content button {
+    margin-bottom: 20px;
+}
+
+.modal-body input {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.modal-body .btn_update {
+    background-color: rgb(59, 192, 59);
+    border: none;
+    width: 120px;
+    overflow: hidden;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.modal-body .btn_can {
+    background-color: rgb(245, 79, 79);
+    border: none;
+    width: 120px;
+    overflow: hidden;
+    margin-left: 20px;
+    border-radius: 5px;
+    color: white;
+}

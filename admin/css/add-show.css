@@ -1,0 +1,178 @@
+body {
+    /*   background-image: url(backimage/bc4.webp);*/
+    background: linear-gradient(to right, rgb(248, 248, 248), rgb(221, 255, 255));
+    width: 100%;
+    height: 100%;
+}
+
+.add-show {
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    height: 800px;
+    width: 80%;
+    margin-left: 100px;
+}
+
+.addtitle {
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    padding-right: 50px;
+    margin-top: 20px;
+    color: black;
+}
+
+.deletetitle {
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    padding-right: 200px;
+    margin-top: 20px;
+    color: black;
+}
+
+.add-show h1 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+}
+
+.report_btn {
+    right: 10%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* form {
+    display: grid;
+} */
+
+select {
+    margin-left: 20px;
+    font-size: 18px;
+    height: 40px;
+    width: 90%;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.select-cate {
+    margin-top: 10px;
+    margin-left: 0px;
+    color: rgb(0, 0, 0);
+    display: grid;
+    font-size: 15px;
+}
+
+.show-btn,
+.delete-show-btn {
+    display: flex;
+    margin-left: 320px;
+}
+
+.daddshow-btn {
+    margin-top: 40px;
+}
+
+.show-btn button,
+.delete-show-btn button {
+    color: #fff;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.cancelshow-btn,
+.dcancelshow-btn {
+    margin-top: 40px;
+    background-color: gray;
+}
+
+#date1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#date1 input {
+    border: 1px solid;
+    height: 40px;
+    width: 90%;
+    margin-left: 0;
+    background: transparent;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    padding-left: 10px;
+}
+
+.check1,
+.check2 {
+    display: flex;
+}
+
+.show-time label {
+    margin-top: 12px;
+    padding-left: 10px;
+    margin-right: 40px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#date1 input:hover {
+    border-color: blue;
+    box-shadow: 20px blue;
+}
+
+
+/* delete movie css*/
+
+.delete-show {
+    height: 500px;
+    width: 80%;
+    margin-left: 100px;
+}
+
+form h1 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+}
+
+.show-t select {
+    margin-top: 10px;
+}
+
+.show-time {
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.show-time .moive-name {
+    margin-top: 20px;
+}
+
+.addshow-btn,
+.addshow-btn {
+    width: 250px;
+    margin-top: 40px;
+}
+
+.show-t2,
+.show-t4 {
+    margin-left: 100px;
+}
+
+.show-date {
+    color: black;
+}

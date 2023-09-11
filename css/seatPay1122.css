@@ -1,0 +1,317 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'roboto';
+        list-style: none;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    
+    body {
+        background: url(../image/c3.jpg);
+        background-size: cover;
+    }
+    
+    .row1 {
+        margin: 40px 40px;
+        display: flex;
+        width: 100%;
+        background: transparent;
+    }
+    
+    .left {
+        width: 50%;
+        height: 540px;
+    }
+    
+    .right {
+        width: 50%;
+        height: 540px;
+    }
+    
+    .text-container {
+        margin-top: 100px;
+        padding: 10px 10px;
+        background-color: rgba(255, 255, 255, .05);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+        backdrop-filter: blur(10px);
+        border-radius: 8px;
+    }
+    
+    .left h1 {
+        margin-left: 40px;
+        font-size: 30px;
+        color: blue;
+        font-weight: 800;
+        line-height: 60px;
+        font-family: 'Showcard Gothic', sans-serif;
+    }
+    
+    .left .label {
+        margin-top: 20px;
+        margin-left: 70px;
+        font-size: 40px;
+        font-family: 'Forte', sans-serif;
+        font-weight: 500;
+        color: rgb(5, 86, 110);
+    }
+    
+    .left h2 {
+        margin-top: 20px;
+        margin-left: 110px;
+        font-size: 30px;
+        font-family: 'Forte', sans-serif;
+        font-weight: 500;
+        color: rgb(0, 47, 255);
+    }
+    
+    .left h2 .c {
+        font-size: 30px;
+        font-family: 'Forte', sans-serif;
+        font-weight: 500;
+        color: rgb(5, 86, 110);
+    }
+    
+    .left p {
+        margin-top: 20px;
+        margin-left: 30px;
+        font-size: 25px;
+        font-weight: 500;
+        color: rgb(5, 86, 110);
+        font-family: 'Bauhaus 93', sans-serif;
+    }
+    
+    .left p .B {
+        font-size: 30px;
+        font-weight: 500;
+        color: rgb(0, 59, 252);
+        font-family: 'Bauhaus 93', sans-serif;
+    }
+    
+    .left span {
+        font-weight: 500;
+        color: rgb(5, 86, 110);
+        font-family: 'Bauhaus 93', sans-serif;
+    }
+    
+    .seat_container {
+        margin: 40px 40px;
+        background: transparent;
+        height: 400px;
+        max-width: 450px;
+        /* box-shadow: 0 10px 20px rgba(39, 35, 35, 0.7); */
+    }
+    
+    .seat_container label {
+        color: rgb(12, 12, 12);
+    }
+    
+    .seat_select {
+        display: flex;
+        color: #ccc;
+        margin: 20px 20px;
+        padding-top: 10px;
+    }
+    
+    .a {
+        margin-left: 80px;
+        background-color: #ccc;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+    
+    .p {
+        margin-left: 10px;
+        font-size: 16px;
+        color: #ccc;
+        font-weight: bold;
+    }
+    
+    label {
+        font-size: 18px;
+    }
+    
+    .a2 {
+        margin-left: 20px;
+        background-color: aqua;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+    
+    .screen {
+        height: 80px;
+        background: rgb(1, 238, 255);
+        max-width: 450px;
+        margin: 5px 20px;
+        padding-top: 10px;
+        transform: rotateX(-45deg);
+        box-shadow: 0 3px 30px rgba(61, 252, 236, 0.7), 0 3px 30px rgba(61, 252, 236, 0.7);
+    }
+    
+    .seat_form {
+        margin: 10px 60px;
+    }
+    
+    .seat_line {
+        display: flex;
+    }
+    
+    input[type="checkbox"] {
+        appearance: none;
+        -webkit-appearance: none;
+        height: 30px;
+        width: 30px;
+        background-color: #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+        outline: none;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    
+    input[type="checkbox"]:after {
+        font-family: "Font Awesome 5 Free";
+        content: "\f00c";
+        font-weight: 900;
+        color: white;
+        font-size: 25px;
+        display: none;
+    }
+    
+    input[type="checkbox"]:hover {
+        background-color: rgb(0, 80, 253);
+    }
+    
+    input[type="radio"]:hover {
+        background-color: rgb(0, 80, 253);
+        font-weight: 500;
+        color: aqua;
+    }
+    
+    input[type="checkbox"]:checked {
+        background-color: rgb(0, 204, 255);
+    }
+    
+    input[type="checkbox"]:disabled {
+        background-color: aqua;
+    }
+    
+    input[type="checkbox"]:checked::after {
+        display: block;
+    }
+    
+    .total_count {
+        display: grid;
+        margin-top: 20px;
+    }
+    
+    .total_count2 {
+        display: grid;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    
+    .ki {
+        display: flex;
+    }
+    
+    .center {
+        padding: 10px 10px;
+        background-color: rgba(255, 255, 255, .05);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+        backdrop-filter: blur(10px);
+        border-radius: 8px;
+    }
+    
+    .payment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .payline1 {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .payline2 {
+        margin-top: 10px;
+        display: flex;
+        margin-bottom: 10px;
+    }
+    
+    form input {
+        font-size: 20px;
+        height: 50px;
+        width: 215px;
+        border-radius: 10px;
+        padding-left: 20px;
+        background: transparent;
+        border: none;
+        color: black;
+        border-bottom: 1px solid white;
+    }
+    
+    form input:hover {
+        box-shadow: 5px 5px 10px aqua, 5px 5px 10px aqua;
+    }
+    
+    .card_no {
+        margin-bottom: 5px;
+    }
+    
+    .email1 {
+        margin-top: 10px;
+    }
+    
+    .cvv,
+    .email {
+        margin-left: 10px;
+    }
+    
+    .cvv {
+        margin-top: 30px;
+    }
+    
+    .card1 input {
+        width: 440px;
+    }
+    
+    .cancle_movie {
+        margin-left: 140px;
+    }
+    
+    .cancle_movie,
+    .book-movie {
+        border-radius: 5px;
+        border: none;
+        background: linear-gradient(to right, rgb(21, 212, 196), rgb(12, 118, 240));
+        color: #fff;
+        font-size: 16px;
+        padding: 5px 10px;
+        letter-spacing: 1px;
+        transition: .4s ease-in;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        margin-right: 10px;
+        box-shadow: 0 3px 20px rgba(128, 128, 128, 0.7), 0 3px 20px rgba(131, 129, 129, 0.7);
+    }
+    
+    .book-movie.press {
+        background-color: transparent;
+        border-color: #fff;
+    }
+    
+    .book-movie:hover {
+        background: linear-gradient(to right, rgb(14, 10, 248), rgb(4, 245, 245));
+        box-shadow: 0 10 20 aqua;
+    }
+    
+    .cancle_movie:hover {
+        background: linear-gradient(to right, rgb(14, 10, 248), rgb(4, 245, 245));
+    }

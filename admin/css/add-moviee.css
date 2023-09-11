@@ -1,0 +1,124 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.movie-book,
+.movie-delete {
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    height: 500px;
+    width: 80%;
+}
+
+#moviet {
+    width: 100%;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.movie-detail,
+.demovie-detail {
+    display: grid;
+    font-size: 10px;
+}
+
+.movie-name2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#moviet,
+#demoviet,
+#demoviel {
+    margin-left: 20px;
+    font-size: 18px;
+    height: 40px;
+    width: 93%;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.report_btn {
+    right: 10%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form input {
+    border: 1px solid;
+    height: 40px;
+    width: 90%;
+    background: transparent;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: black;
+    outline: none;
+}
+
+.moive-image {
+    border: 1px solid;
+}
+
+input:hover {
+    border-color: blue;
+}
+
+.mgabout {
+    height: 60px;
+}
+
+.movie-btn,
+.de-btn {
+    display: flex;
+    margin-left: 320px;
+}
+
+.movie-btn button,
+.de-btn button {
+    width: 100px;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.cancel-btn,
+.deletecancel-btn {
+    background-color: gray;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.movieline1,
+.movieline2,
+.movieline3,
+.movieline4 {
+    display: flex;
+}
+
+.mtext input {
+    height: 100px;
+    overflow: hidden;
+}
+
+.movieline1 input,
+.movieline2 input,
+.movieline3 input,
+.movieline4 input {
+    width: 280px;
+    padding-left: 10px;
+    font-size: 16px;
+}
